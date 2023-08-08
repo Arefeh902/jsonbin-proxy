@@ -19,3 +19,5 @@ app.get('/api/data', function(req, res) {
 app.listen(3000, function() {
     console.log('The server starts running on port 3000');
 });
+
+module.exports = app;
