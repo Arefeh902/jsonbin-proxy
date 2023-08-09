@@ -1,6 +1,6 @@
 import { kv } from '@vercel/kv';
 
-const key = 'yourKey'; // define your key name here
+const key = 'appdata'; // define your key name here
 
 const allowCors = (fn) => async (req, res) => {
   res.setHeader('Access-Control-Allow-Credentials', true)
